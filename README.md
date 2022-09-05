@@ -18,6 +18,7 @@ Scan ports, usage: nc -s <host> <port begin>-<port end>
 For example you can try this
 
 **Scan ports**
+
 One terminal
 ```
 go run nc.go -l 2055
@@ -33,6 +34,7 @@ Scaning 127.0.0.1 ports from 2000 to 3000
 Connection established tcp 127.0.0.1:2055
 ```
 **Connect port**
+
 One terminal
 ```
 go run nc.go -l 2055
